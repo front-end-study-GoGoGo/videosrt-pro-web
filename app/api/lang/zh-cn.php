@@ -1,0 +1,32 @@
+<?php
+return [
+    // 时间格式化-s
+    '%d second%s ago'                                        => '%d秒前',
+    '%d minute%s ago'                                        => '%d分钟前',
+    '%d hour%s ago'                                          => '%d小时前',
+    '%d day%s ago'                                           => '%d天前',
+    '%d week%s ago'                                          => '%d周前',
+    '%d month%s ago'                                         => '%d月前',
+    '%d year%s ago'                                          => '%d年前',
+    '%d second%s after'                                      => '%d秒后',
+    '%d minute%s after'                                      => '%d分钟后',
+    '%d hour%s after'                                        => '%d小时后',
+    '%d day%s after'                                         => '%d天后',
+    '%d week%s after'                                        => '%d周后',
+    '%d month%s after'                                       => '%d月后',
+    '%d year%s after'                                        => '%d年后',
+    // 时间格式化-e
+    'Invalid token'                                          => 'Token 无效！',
+    'Login expired, please login again.'                     => '登录过期，请重新登录。',
+    'Account not exist'                                      => '帐户不存在',
+    'Account disabled'                                       => '帐户已禁用',
+    'Token login failed'                                     => '令牌登录失败',
+    'Please try again after 1 day'                           => '登录失败次数超限，请在1天后再试',
+    'Password is incorrect'                                  => '密码不正确',
+    'You are not logged in'                                  => '你没有登录',
+    'Unknown operation'                                      => '未知操作',
+    'No action available, please contact the administrator~' => '没有可用操作，请联系管理员~',
+    'Please login first'                                     => '请先登录！',
+    'You have no permission'                                 => '没有权限操作！',
+    'Parameter error'                                        => '参数错误!',
+];
