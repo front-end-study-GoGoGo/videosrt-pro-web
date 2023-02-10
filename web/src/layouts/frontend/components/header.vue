@@ -43,6 +43,13 @@
                     <el-menu-item index="theme-switch" class="theme-switch">
                         <DarkSwitch @click="toggleDark()" />
                     </el-menu-item>
+
+                    <el-menu-item @click="goGitHub()" v-blur index="index">
+                        <div class="header-user-box">
+                            {{ 'github' }}&nbsp;
+                            <img class="header-user-avatar" :src="fullUrl('/static/images/link-go.png')" alt="" />
+                        </div>
+                    </el-menu-item>
                 </el-menu>
             </el-col>
         </el-row>
@@ -84,6 +91,10 @@ const router = useRouter()
 const config = useConfig()
 const siteConfig = useSiteConfig()
 const memberCenter = useMemberCenter()
+
+const goGitHub = () => {
+    window.open('https://github.com/front-end-study-GoGoGo/videosrt-pro-web')
+}
 
 switch (route.name) {
     case '/':
